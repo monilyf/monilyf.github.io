@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mansi Prajapati</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1 style="color: rgb(247, 238, 165); font-family: 'Josefin Sans', sans-serif; letter-spacing: 7px;">Mansi</h1>
+        </div>
+        <nav>
+            <input type="checkbox" id="nav" class="hidden"/>
+            <label for="nav" class="nav-open">
+               <i></i><i></i><i></i>
+            </label>
+            <div class="nav-container">
+                <ul>
+                    <li><a onclick="hideNav();" class="anchor" href="#home">Home</a></li>
+                    <li><a onclick="hideNav();" class="anchor" href="#skills">Skills</a></li>
+                    <li><a onclick="hideNav();" class="anchor" href="#projects">Projects</a></li>
+                    <li><a onclick="hideNav();" class="anchor" href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>  
+
+
+    <section class="top-container" id="home"> 
+        <!-- <img class="top-cloud" src="images/cloud.png" alt="cloud-img"> -->
+        <h1 id="name">I'm Mansi.</h1>
+        <img class="underline" src="images/underline.svg" alt="">
+        <h2>a Web Developer. </h2>
+        <!-- <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+        
+        <img src="images/mountain.png" alt="mountain-img"> -->
+
+        <div class="profile">
+            <img class="profile-image" src="images/mansi.png" alt="mansi-profilePic">
+            <h2>Hello.<hr class=head-line></hr></h2>
+            <p class="intro">I am a web developer.I design and code beautifully simple things, and I love what I do. I ❤️ coffee and night full of stars. </p>
+        </div>
+
+    </section>
+    <section class="middle-container">
+        <div id="skills">
+            <h2>My Skills<hr class=head-line></hr></h2>
+
+            <div class="skill-row">
+                <div class="row">
+                    <div class="column">
+                        <h3>Front-end</h3>
+                        <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li> 
+                        <!-- <li>TypeScript</li>
+                        <li>Angular</li> -->
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <h3>Back-end</h3>
+                        <ul>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>SQL</li>
+                        </ul>
+                    </div>
+                    <div class="column1">
+                        <h3>Other</h3>
+                        <ul>
+                        <li>Flask</li>
+                        <li>Flutter</li>
+                        <li>IOT</li>
+                        <!-- <li>Java</li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-row">
+                <img class="computer-img" src="images/computer.png" alt="computer-image">
+                <h3>Design & Development</h3>
+                <p>I started learning to code when I was 18 years old.Over time, I have gained a wealth of experience designing and developing mobile and web applications.</p>
+
+            </div>
+            <div class="skill-row">
+              <img class="star-img" src="images/stars.png" alt="stars-img">
+      
+              <h3>Night Sky Observation</h3>
+              <p>But my best skill is actually observe the night sky full of stars. I never get tired of seeing the stars at night.</p> <!--are my favourite snacks.--> 
+      
+            </div>
+          </div>
+        </div>
+    </section>
+       
+    <section class="projects">
+        <div id="projects">
+            <h2>Projects<hr class=head-line></hr></h2>
+            <div class="skill-row">
+                <div class="card">
+                    <div class="head">Smart Monitoring</div>
+                    <p class="content">
+                        A raspberry pi based system to save electricity in efficient way in colleges and schools 
+                        where CCTV already installed. 
+                        In classrooms all lights and fans will be switched ON/OFF automatically 
+                        based on presence of the students,if no one in class then lights and fans switched off.
+                        
+                    </p>
+                    <!-- <div class="links">
+                      <a
+                        target="_blank"
+                        href="https://github.com/saurabhshalu/COVID-19"
+                        class="gitcode"
+                        rel="noopener"
+                        >View code</a
+                      >
+                    </div>  -->
+                </div>     
+                <div class="card">
+                    <div class="head">A Minimal URL</div>
+                    <p class="content">
+                        A minimal url shortner web application which helps users to short the links. 
+                        It will also helps users to keep track of click count!
+                    </p>
+                    <!-- <div class="links">
+                      <a
+                        target="_blank"
+                        href="https://github.com/saurabhshalu/COVID-19"
+                        class="gitcode"
+                        rel="noopener"
+                        >View code</a
+                      >
+                    </div>   -->
+                </div>
+                <div class="card">
+                    <div class="head">GECM Library</div>
+                    <p class="content">
+                      It is an online platform where students can check the
+                      desired book is available or not in college library, and 
+                      if books are available then students can get them
+                      easily. 
+                    </p>
+                    <!-- <div class="links">
+                      <a
+                        target="_blank"
+                        href="https://github.com/saurabhshalu/COVID-19"
+                        class="gitcode"
+                        rel="noopener"
+                        >View code</a
+                      >
+                    </div> -->
+                  </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+    <section class="bottom-container">
+          <!-- <div class="contact-me">
+            <h2>Get In Touch<hr class=head-line></hr></h2>
+            <h3>If you love twinkling stars as much as I do.</h3>
+            <p class="contact-message">Love twinkling stars as much as I do? Let's talk about how awesome they are! I can code in the glow of the stars at night!</p>
+            
+          </div> -->
+          <div class="contact">
+            <div class="main-head">
+                <h2  id="contact">Contact Me<hr class=head-line></hr></h2>
+            </div>
+            <div class="social">
+                <a href="mailto:monilyf321@gmail.com" target="_blank"><img src="images/social/gmail.svg"/></a>
+                <a href="https://www.linkedin.com/in/mansi-prajapati-6716b0142" target="_blank"><img src="images/social/linkedin.svg"/></a>
+                <a href="https://github.com/monilyf" target="_blank"><img src="images/social/github.svg"/></a>
+                <a href="https://www.instagram.com/monilyf" target="_blank"><img src="images/social/insta.svg"/></a>     
+            </div>
+            <p class="copyright">2020 © Mansi Prajapati</p> 
+        </div>
+    </section>
+    
+
+</body>
+      
+</html>
