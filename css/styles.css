@@ -305,25 +305,32 @@ hr{
     text-align: left;
 }
 
-/* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
-  margin-right:10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+.skills .skills-div {
+  margin: 30px 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.column1{
-  float: right;
-  margin-top: 7px;
+.content .skills .skills-div .skill ul {
+  margin: 16px 0 0 0;
+  list-style-type: none;
+  line-height: 1.5rem;
+  font-size: 1.2rem;
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+li{
+  list-style: square;
+  display: list-item;
+  text-align: -webkit-match-parent;
 }
 
 /* skill end */
